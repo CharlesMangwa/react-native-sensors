@@ -4,8 +4,8 @@ import { publish, refCount } from "rxjs/operators";
 import * as RNSensors from "./rnsensors";
 
 const listenerKeys = new Map([
-  ["accelerometer", "Accelerometer"],
-  ["gyroscope", "Gyroscope"],
+  ["accelerometer", "A"],
+  ["gyroscope", "G"],
   ["magnetometer", "Magnetometer"],
   ["barometer", "Barometer"]
 ]);

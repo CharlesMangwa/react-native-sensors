@@ -95,7 +95,7 @@ RCT_EXPORT_METHOD(startUpdates) {
          double timestamp = accelerometerData.timestamp;
          NSLog(@"startAccelerometerUpdates: %f, %f, %f, %f", x, y, z, timestamp);
 
-         [self sendEventWithName:@"Accelerometer" body:@{
+         [self sendEventWithName:@"A" body:@{
                                                                                    @"x" : [NSNumber numberWithDouble:x],
                                                                                    @"y" : [NSNumber numberWithDouble:y],
                                                                                    @"z" : [NSNumber numberWithDouble:z],
